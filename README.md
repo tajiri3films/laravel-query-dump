@@ -1,7 +1,8 @@
 # laravel-query-dump
 DB Query Dump for Laravel.
 
-notice: `@dev-master`
+- Notice: `@dev-master`
+- Warning: Do not use in projects that deal with sensitive data.
 
 
 ## Install

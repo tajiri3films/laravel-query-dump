@@ -29,6 +29,7 @@
     },
     "require": {
         "php": "^7.2 || ^7.3 || ^7.4 || ^8.0",
+        "composer/composer": "^1.10.23 || ^2.1.9",
         "laravel/framework": "^v6.0.0|^v7.0.0|^v8.12",
         "illuminate/support": "^6 || ^7 || ^8",
         "doctrine/sql-formatter": "^1.1",
