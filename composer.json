@@ -1,0 +1,39 @@
+{
+    "name": "threefilms/laravel-query-dump",
+    "description": "Laravel DB Query Dump.",
+    "keywords": [
+        "laravel",
+        "debug"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tajiri3films",
+            "email": "tajiri@3films.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ThreeFilms\\LaravelQueryDump\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "QueryDump": "Threefilms\\LaravelQueryDump\\Facades\\QueryDump"
+            }
+        }
+    },
+    "require": {
+        "php": "^7.2 || ^7.3 || ^7.4 || ^8.0",
+        "laravel/framework": "^v6.0.0|^v7.0.0|^v8.12",
+        "illuminate/support": "^6 || ^7 || ^8",
+        "doctrine/sql-formatter": "^1.1",
+        "symfony/var-dumper": "^v5.3.10"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
