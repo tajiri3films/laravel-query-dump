@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\DB;
 // [1/2] enable QueryLog
 QueryDump::enableQueryLog();
 
-DB::table('posts')->where('author_id', '=', 12)->limit(10);
+DB::table('posts')->where('author_id', '=', 12)->limit(10)->get();
 
 // [2/2] Query Dump
 QueryDump::dd();
@@ -51,7 +51,7 @@ use Illuminate\Support\Facades\DB;
 // [1/2] enable QueryLog
 qd_enable();
 
-DB::table('posts')->where('author_id', '=', 12)->limit(10);
+DB::table('posts')->where('author_id', '=', 12)->limit(10)->get();
 
 // [2/2] Query Dump
 qd_dd();
